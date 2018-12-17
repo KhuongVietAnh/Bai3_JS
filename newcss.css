@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 50px auto;
+    max-width: 950px;
+    background-image: url(images/bg_itm_lineup.jpg);
+    position: relative;
+    height: 598px;
+}
+ul li{
+    list-style: none;
+}
+.previous, .next{
+    position: absolute
+}
+.container__items_nav{
+    display: flex;
+}
+.container >img{
+    position: absolute;
+    top: 40%;
+}
+.next{
+    right: 5%;
+}
+.previous{
+    left: 5%;
+}
+.container__items_nav{
+    position: absolute;
+    left: 20%;
+    top: 74%;
+}
+.container__slider{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    overflow: hidden;
+    width: 648px;
+    height: 355px;
+}
+.next, .previous, .container__items_nav{
+    cursor: pointer;
+}
+.active{
+    display: block;
+}
+.container__slider >ul{
+    width: 3500px;
+    margin: 0px;
+    padding: 0px;
+    height: 355px;
+    position: relative;
+}
+.list__items{
+    display: inline-block;
+}
