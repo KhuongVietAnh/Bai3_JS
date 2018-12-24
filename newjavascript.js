@@ -74,7 +74,7 @@ $(document).ready(function () {
                 count = countImg.length - 1;
             }
             animate(count, slides);
-        }, 2000);
+        }, 4000);
     }
     //When the animation is being processed, the blanket does not allow the new animation to be clicked
     //When the animation is finished,allow the new animation to be clicked
